@@ -13,7 +13,7 @@ class JenkinsDemoApplicationTests {
     public static Logger logger = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
     @Test
     public void contextLoads() {
-        logger.info("test method - contextLoads");
+        logger.info("test method");
         assertEquals(true,true);
     }
 
